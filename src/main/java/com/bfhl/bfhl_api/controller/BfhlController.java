@@ -18,7 +18,7 @@ public class BfhlController {
     public BfhlController(BfhlService bfhlService) {
         this.bfhlService = bfhlService;
     }
-    @GetMapping("/bfhl")
+    @GetMapping("/health")
     public ResponseEntity<Map<String, Integer>> getOperationCode() {
         return ResponseEntity.ok(Map.of("operation_code", 1));
     }
