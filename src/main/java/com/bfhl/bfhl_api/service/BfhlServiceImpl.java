@@ -12,9 +12,9 @@ import java.util.List;
 public class BfhlServiceImpl implements BfhlService {
 
     // ==== CHANGE THESE TO YOUR DETAILS ====
-    private static final String USER_ID = "john_doe_17091999"; // full_name_ddmmyyyy (lowercase)
-    private static final String EMAIL = "john@xyz.com";
-    private static final String ROLL_NUMBER = "ABCD123";
+    private static final String USER_ID = "riya_agrawal_15022005"; // full_name_ddmmyyyy (lowercase)
+    private static final String EMAIL = "riya.agrawal.btech2023@sitpune.edu.in";
+    private static final String ROLL_NUMBER = "23070122184";
     // ======================================
 
     @Override

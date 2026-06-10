@@ -8,6 +8,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
+
 @RestController
 public class BfhlController {
 
@@ -15,6 +17,10 @@ public class BfhlController {
 
     public BfhlController(BfhlService bfhlService) {
         this.bfhlService = bfhlService;
+    }
+    @GetMapping("/bfhl")
+    public ResponseEntity<Map<String, Integer>> getOperationCode() {
+        return ResponseEntity.ok(Map.of("operation_code", 1));
     }
 
     @PostMapping("/bfhl")
